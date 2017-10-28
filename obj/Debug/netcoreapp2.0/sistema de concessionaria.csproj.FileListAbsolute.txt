@@ -1,0 +1,10 @@
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\bin\Debug\netcoreapp2.0\sistema de concessionaria.deps.json
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\bin\Debug\netcoreapp2.0\sistema de concessionaria.runtimeconfig.json
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\bin\Debug\netcoreapp2.0\sistema de concessionaria.runtimeconfig.dev.json
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\bin\Debug\netcoreapp2.0\sistema de concessionaria.dll
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\bin\Debug\netcoreapp2.0\sistema de concessionaria.pdb
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\obj\Debug\netcoreapp2.0\sistema de concessionaria.csproj.CoreCompileInputs.cache
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\obj\Debug\netcoreapp2.0\sistema de concessionaria.AssemblyInfoInputs.cache
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\obj\Debug\netcoreapp2.0\sistema de concessionaria.AssemblyInfo.cs
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\obj\Debug\netcoreapp2.0\sistema de concessionaria.dll
+c:\Users\bruno afonso\Desktop\sistema de concessionaria\obj\Debug\netcoreapp2.0\sistema de concessionaria.pdb
