@@ -1,5 +1,6 @@
 
 using System;
+using System.IO;
 using System.Text.RegularExpressions;
 class cliente
 {
@@ -12,6 +13,7 @@ class cliente
 
     public string Data_cadastro{get; set;}
 
+    public cliente() { }
     public cliente(string nome, string documento, string email, string endereco, string cep, string data_cadastro) {
         Nome = nome;
         Documento = documento;
@@ -42,6 +44,7 @@ class cliente
         } else {
             return validar_cnpj(documento);
         }
+
     }
     public string validar_cnpj(string documento) {  
             do {
@@ -161,7 +164,7 @@ class cliente
         System.Console.WriteLine("digite seu email");
         string email = Console.ReadLine();
         // mascara a ser aplicada
-        Regex regex = new Regex(@"(\w+){1}(@)(\w+){2}(.)(\w+){2}");
+        Regex regex = new Regex(@"(\w+)(@)(\w+)(.)(\w+)");
         //texto a ser vaidado
         Match match = regex.Match(email);
         // loop para pedir dado caso incorreto
@@ -214,6 +217,10 @@ class cliente
     public string validar_cep() {
         System.Console.WriteLine("digite seu cep com traço: EX.: 12345-123");
         string cep = Console.ReadLine();
+        while(cep.Length != 9) {
+            System.Console.WriteLine("digite seu cep com traço: EX.: 12345-123");
+            cep = Console.ReadLine();
+        }
         // mascara a ser verificada numeros nas chaves = quantidade de digitos
         Regex regex = new Regex(@"(\d+){5}(-)(\d+){3}");
         // verifica de o dado digitado confere com a mascara
